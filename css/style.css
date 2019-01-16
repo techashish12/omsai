@@ -176,9 +176,13 @@ textarea:focus {
     transition: 1s opacity;
 }
 #page.layout-boxed {
+	
     max-width: 1260px;
     margin: 0 auto;
-    box-shadow: 0 0 18px 0 #000;
+    box-shadow: 0px 0px 18px 0px #000;
+	margin-top:30px;
+	margin-bottom:30px;
+	    border-radius: 25px;
 }
 /*Nagivation*/
 #main-nav {
@@ -269,7 +273,79 @@ textarea:focus {
 	width: 275px;
 	border-color: #e8e8e8;
 }
+.myservice  li {
+    color: #462500;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
 
+.myservice
+{
+    list-style-image: url('../list.png');
+    line-height: 2.4;
+    margin-left: 0px;
+    margin-top: 5px;
+    padding-left: 38px;
+}
+.service-div-title 
+{
+	    background: -moz-linear-gradient(top, #e03960,#c80936);
+    background: -ie-linear-gradient(top, #e03960,#c80936);
+    background: -o-linear-gradient(top, #e03960,#c80936);
+    background: -webkit-linear-gradient(top, #e03960,#c80936);
+    background: -ms-linear-gradient(top, #e03960,#c80936);
+    background: linear-gradient(top, #e03960,#c80936);
+    background-color: #c80936;
+    
+    padding: 10px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+.booknow 
+{
+	    background: -moz-linear-gradient(top, #e03960,#c80936);
+    background: -ie-linear-gradient(top, #e03960,#c80936);
+    background: -o-linear-gradient(top, #e03960,#c80936);
+    background: -webkit-linear-gradient(top, #e03960,#c80936);
+    background: -ms-linear-gradient(top, #e03960,#c80936);
+    background: linear-gradient(top, #e03960,#c80936);
+    background-color: #c80936;
+    
+    padding: 10px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.service-div
+{
+    float: left;
+   height:700px;
+    background-color: #edd6db;
+    border-radius: 25px
+}
+.full-box
+{
+    float: left;
+    min-height: 700px;
+    height: auto;
+  
+  
+    border-radius: 25px;
+	    background-color: #FFFFCC
+}
+.service-div-title h4
+{
+	
+	color: #FFFFFF;
+    font-size: 22px;
+font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+}
 /*Main Slider*/
 #slider {
 	margin: 0;
@@ -418,10 +494,14 @@ textarea:focus {
 	width: 12px;
 	height: 12px;
 }
-
+.service-block .inner-box img
+{
+	width:300px;
+	height:300px;
+}
 /*About*/
 #about {
-	padding: 0px;
+	padding: 30px;
 	background-color: white;
 }
 
